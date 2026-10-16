@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rokaia's personal web developer portfolio">
+  <title>Rokaia | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-mark">&lt;/&gt;</span>
+      <span>Rokaia<span class="dot">.</span>dev</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Hire Me <span>↗</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <div class="eyebrow">I'M A WEB DEVELOPER</div>
+        <h1>Hi, I'm <span>Rokaia</span></h1>
+        <h2>I build things for the web.</h2>
+        <p class="hero-text">
+          I'm a passionate developer who enjoys turning ideas into
+          clean, interactive, and user-friendly digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work <span>↗</span></a>
+          <a href="#contact" class="btn secondary">Contact Me <span>→</span></a>
+        </div>
+
+        <div class="tech-row">
+          <span>TECHNOLOGIES I WORK WITH</span>
+          <div class="tech-icons">
+            <div class="tech html">HTML</div>
+            <div class="tech css">CSS</div>
+            <div class="tech js">JS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="blob"></div>
+        <div class="portrait-card">
+  <img src="Burgundy One-Line Hijab Portrait.png" alt="Roka" class="profile-photo">
+</div>
+
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span></div>
+          <pre><code>const developer = {
+  name: "Rokaia",
+  skills: ["HTML",
+           "CSS", "JavaScript"],
+  passion: "Building
+  for the web"
+};</code></pre>
+        </div>
+
+        <div class="sparkle">✦</div>
+        <div class="circle-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-label">ABOUT ME</div>
+      <div class="about-grid">
+        <div>
+          <h2>I'm passionate about<br><span>creating digital solutions.</span></h2>
+          <p>
+            I love learning technology, building websites, and turning creative
+            ideas into real projects. I'm always exploring new tools and improving
+            my coding skills through hands-on work.
+          </p>
+          <a href="#contact" class="text-btn">Let's work together <span>↗</span></a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-icon">✦</div>
+            <div><strong>10+</strong><span>Projects & ideas</span></div>
+          </div>
+          <div class="stat">
+            <div class="stat-icon">⌘</div>
+            <div><strong>3</strong><span>Core technologies</span></div>
+          </div>
+          <div class="stat">
+            <div class="stat-icon">◇</div>
+            <div><strong>100%</strong><span>Passion for learning</span></div>
+          </div>
+          <div class="stat">
+            <div class="stat-icon">★</div>
+            <div><strong>∞</strong><span>Ideas to build</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="section-heading">
+        <div class="section-label">MY SKILLS</div>
+        <h2>Technologies I Work With</h2>
+        <div class="heading-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-name"><span><b class="skill-icon html-icon">5</b> HTML</span><b>95%</b></div>
+          <div class="bar"><span style="width:95%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name"><span><b class="skill-icon css-icon">3</b> CSS</span><b>90%</b></div>
+          <div class="bar"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name"><span><b class="skill-icon js-icon">JS</b> JavaScript</span><b>85%</b></div>
+          <div class="bar"><span style="width:85%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+
+  <div class="section-heading">
+    <div class="section-label">FEATURED PROJECTS</div>
+    <h2>Some of My Recent Work</h2>
+    <div class="heading-line"></div>
+  </div>
+
+  <div class="project-grid">
+
+    <!-- Project 1: Cute To-Do List -->
+    <article class="project-card">
+      <div class="project-image project-todo">
+        <span>01</span>
+        <div class="project-preview">
+          <h3>My Little To-Do ♡</h3>
+          <p>✓ Finish homework</p>
+          <p>□ Read a book</p>
+          <p>□ Drink some water</p>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h3>Cute To-Do List</h3>
+        <p>A cute task planner to organize your day and track your progress.</p>
+        <a href="https://github.com/rokakamal789/Cute-To-Do-List" class="project-link">View Project ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 2: Gallery -->
+    <article class="project-card">
+      <div class="project-image project-gallery">
+        <span>02</span>
+        <div class="gallery-preview">
+          <div>🌸</div>
+          <div>♡</div>
+          <div>☀</div>
+          <div>✦</div>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h3>Photo Gallery</h3>
+        <p>A beautiful responsive gallery to explore and view photos.</p>
+        <a href="https://github.com/rokakamal789/-Gallery-" class="project-link">View Project ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 3: Guessing Game -->
+    <article class="project-card">
+      <div class="project-image project-game">
+        <span>03</span>
+        <div class="game-preview">
+          <p>GUESS THE NUMBER</p>
+          <strong>?</strong>
+          <p>Attempts left: 5</p>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h3>Guessing Game</h3>
+        <p>A fun number game where you have a limited number of tries.</p>
+        <a href="https://github.com/rokakamal789/Number-guessing-game" class="project-link">View Project ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 4: Sushi Restaurant -->
+    <article class="project-card">
+      <div class="project-image project-sushi">
+        <span>04</span>
+        <div class="sushi-preview">
+          <div class="sushi-icon">🍣</div>
+          <h3>SUSHI HOUSE</h3>
+          <p>FRESH • SIMPLE • DELICIOUS</p>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h3>Sushi Restaurant</h3>
+        <p>A stylish restaurant website featuring sushi dishes and a food menu.</p>
+        <a href="https://github.com/rokakamal789/sumo-sushi-res" class="project-link">View Project ↗</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-copy">
+        <div class="section-label">LET'S WORK TOGETHER</div>
+        <h2>Have a project in mind?</h2>
+        <p>I'm always open to learning, discussing new ideas and creating something useful together.</p>
+        <a href="mailto:rokaaliwa@gmail.com" class="btn primary">Get In Touch <span>↗</span></a>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-mark">“</div>
+        <p>Great websites start with a simple idea, then grow through creativity, practice, and clean code.</p>
+        <div class="quote-person">
+          <div class="mini-avatar">R</div>
+          <div><b>Rokaia</b><span>Web Developer</span></div>
+        </div>
+      </div>
+
+      <div class="socials">
+        <h4>FOLLOW ME</h4>
+        <div class="social-icons">
+          <a href="https://github.com/rokakamal789" aria-label="github">GH</a>
+          <a href="https://www.facebook.com/share/1HuZRZd9eH/" aria-label="facebook">fb</a>
+          <a href="https://www.instagram.com/__rok_a__?dlrf=ejJocWhzbjd1bXc=" aria-label="Instagram">ig</a>
+        </div>
+        <a href="mailto:rokaaliwa@gmail.com">✉ rokaaliwa@gmail.com</a>
+        <a href="tel:+201552061005">☎ +20 155 206 1005</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Roka. All rights reserved.</span>
+    <span>Made with <b>love</b> &amp; code</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
